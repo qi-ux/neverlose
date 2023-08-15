@@ -1,0 +1,20 @@
+{
+    "commentTranslate.source": "Google",
+    "Lua.runtime.builtin": {
+        "basic": "disable",
+        "debug": "disable",
+        "ffi": "disable",
+        "io": "disable",
+        "math": "disable",
+        "os": "disable",
+        "package": "disable",
+        "utf8": "disable",
+        "jit": "disable",
+        "table": "disable",
+    },
+    "Lua.workspace.library": [
+        "./zh-cn/"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.runtime.version": "LuaJIT"
+}
