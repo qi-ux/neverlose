@@ -13,7 +13,7 @@ function common.add_notify(title, text) end
 
 function common.force_full_update() end
 
----@return table<number, string>
+---@return string[]
 ---@nodiscard
 function common.get_active_scripts() end
 
@@ -37,7 +37,7 @@ function common.get_game_directory() end
 ---@field shortname string
 local mapdata
 
----@return map_data|nil
+---@return map_data?
 ---@nodiscard
 function common.get_map_data() end
 

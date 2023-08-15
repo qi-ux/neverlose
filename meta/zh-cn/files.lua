@@ -17,7 +17,7 @@ function files.get_crc32(path) end
 function files.get_size(path) end
 
 ---@param path string
----@return string|nil
+---@return string?
 ---@nodiscard
 function files.read(path) end
 

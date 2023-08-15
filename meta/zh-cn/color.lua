@@ -14,11 +14,11 @@
 ---@operator unm(color): color
 local color_mt = {}
 
----@overload fun(): color
 ---@overload fun(hex: string): color
 ---@overload fun(v: number, a?: number): color
 ---@overload fun(r: number, g: number, b: number, a?: number): color
-function color(...) end
+---@return color
+function color() end
 
 ---@return string
 ---@nodiscard
@@ -29,9 +29,11 @@ function color_mt:__tostring() end
 ---@nodiscard
 function color_mt:alpha_modulate(alpha) end
 
----@overload fun(v: number, a?: number): color
 ---@overload fun(r: number, g: number, b: number, a?: number): color
-function color_mt:as_fraction(...) end
+---@param v number
+---@param a? number
+---@return color
+function color_mt:as_fraction(v, a) end
 
 ---@param h number
 ---@param s number
@@ -60,10 +62,10 @@ function color_mt:clone() end
 ---@nodiscard
 function color_mt:grayscale(value) end
 
----@overload fun(): color
 ---@overload fun(hex: string): color
 ---@overload fun(v: number, a?: number): color
 ---@overload fun(r: number, g: number, b: number, a?: number): color
+---@return color
 function color_mt:init() end
 
 ---@param other color

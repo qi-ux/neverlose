@@ -15,6 +15,6 @@
     "Lua.workspace.library": [
         "./zh-cn/"
     ],
-    "Lua.workspace.checkThirdParty": false,
+    "Lua.workspace.checkThirdParty": true,
     "Lua.runtime.version": "LuaJIT"
 }

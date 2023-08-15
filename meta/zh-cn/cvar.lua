@@ -20,14 +20,14 @@ function cvar_mt:float() end
 ---@nodiscard
 function cvar_mt:string() end
 
----@param callback fun(object: cvar, ...)|fun(object: cvar, old: any, new: any)
+---@param callback fun(self: cvar, ...)|fun(self: cvar, old: any, new: any)
 function cvar_mt:set_callback(callback) end
 
----@param callback fun(object: cvar, ...)|fun(object: cvar, old: any, new: any)
+---@param callback fun(self: cvar, ...)|fun(self: cvar, old: any, new: any)
 function cvar_mt:unset_callback(callback) end
 
 ---@class cvarlib
----@field [string] cvar|nil
+---@field [string] cvar?
 cvar = {}
 
 return cvar

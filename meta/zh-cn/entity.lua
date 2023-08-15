@@ -84,8 +84,8 @@ function entity_mt:get_model_name() end
 function entity_mt:get_network_state() end
 
 ---@class bbox
----@field pos1 vector
----@field pos2 vector
+---@field pos1 vector?
+---@field pos2 vector?
 ---@field alpha number
 local bbox = {}
 
@@ -384,7 +384,7 @@ entity = {}
 
 ---@param idx number
 ---@param is_uid boolean
----@return entity|nil
+---@return entity?
 ---@nodiscard
 function entity.get(idx, is_uid) end
 
@@ -395,15 +395,15 @@ function entity.get(idx, is_uid) end
 ---@nodiscard
 function entity.get_entities(class, dormant) end
 
----@return entity|nil
+---@return entity?
 ---@nodiscard
 function entity.get_game_rules() end
 
----@return entity|nil
+---@return entity?
 ---@nodiscard
 function entity.get_player_resource() end
 
----@return entity|nil
+---@return entity?
 ---@nodiscard
 function entity.get_local_player() end
 
