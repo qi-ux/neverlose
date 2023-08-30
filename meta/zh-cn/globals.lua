@@ -19,6 +19,7 @@
 ---@field client_tick number
 ---@field delta_tick number
 ---@field clock_offset number
+---@field exactframetime number
 globals = {}
 
 return globals
