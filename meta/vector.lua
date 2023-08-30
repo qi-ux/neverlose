@@ -58,7 +58,7 @@ function vector_mt:cross(other) end
 ---Returns the Euclidean distance between the two given vectors.s.
 ---
 ---@param other vector The vector to get the distance to
----@return vector
+---@return number
 ---@nodiscard
 function vector_mt:dist(other) end
 
@@ -66,7 +66,7 @@ function vector_mt:dist(other) end
 ---Returns the 2D distance to another vector.
 ---
 ---@param other vector The vector to get the distance to
----@return vector
+---@return number
 ---@nodiscard
 function vector_mt:dist2d(other) end
 
@@ -74,7 +74,7 @@ function vector_mt:dist2d(other) end
 ---Returns the squared 2D distance to another vector.
 ---
 ---@param other vector The vector to get the squared distance to
----@return vector
+---@return number
 ---@nodiscard
 function vector_mt:dist2dsqr(other) end
 
@@ -82,7 +82,7 @@ function vector_mt:dist2dsqr(other) end
 ---Returns the squared Euclidean distance to another vector.
 ---
 ---@param other vector The vector to get the squared distance to
----@return vector
+---@return number
 ---@nodiscard
 function vector_mt:distsqr(other) end
 
@@ -91,7 +91,7 @@ function vector_mt:distsqr(other) end
 ---
 ---@param ray_begin vector Ray begin position
 ---@param ray_direction vector Ray position
----@return vector
+---@return number
 ---@nodiscard
 function vector_mt:dist_to_ray(ray_begin, ray_direction) end
 
@@ -99,7 +99,7 @@ function vector_mt:dist_to_ray(ray_begin, ray_direction) end
 ---Returns the dot product of the two given vectors.
 ---
 ---@param other vector The vector to calculate the dot product with
----@return vector
+---@return number
 ---@nodiscard
 function vector_mt:dot(other) end
 
@@ -122,9 +122,9 @@ function vector_mt:in_range(other, range) end
 ---
 ---Overwrites the vector's coordinates. Returns itself.
 ---
----@param x vector New X coordinate
----@param y number New Y coordinate
----@param z number New Z coordinate
+---@param x? number New X coordinate
+---@param y? number New Y coordinate
+---@param z? number New Z coordinate
 ---@return vector
 function vector_mt:init(x, y, z) end
 
@@ -234,5 +234,6 @@ function vector_mt:vectors() end
 ---@nodiscard
 function vector(x, y, z)
 end
+
 
 return vector

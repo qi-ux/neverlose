@@ -1,0 +1,1621 @@
+[
+    {
+        "defines": [
+            {
+                "extends": {
+                    "finish": 40008,
+                    "start": 40006,
+                    "type": "table",
+                    "view": "bitlib"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 40003,
+                "start": 40000,
+                "type": "setglobal"
+            }
+        ],
+        "name": "bit",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 590022,
+                            "name": "x",
+                            "start": 590021,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 590025,
+                            "name": "n",
+                            "start": 590024,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 590030,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 590000,
+                    "type": "function",
+                    "view": "function bit.arshift(x: integer, n: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 590020,
+                "start": 590009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.arshift",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 340019,
+                            "name": "x",
+                            "start": 340018,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 340023,
+                            "name": "x2",
+                            "start": 340021,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 340028,
+                            "start": 340025,
+                            "type": "...",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 340033,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 340000,
+                    "type": "function",
+                    "view": "function bit.band(x: integer, x2: integer, ...integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 340017,
+                "start": 340009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.band",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 200019,
+                            "name": "x",
+                            "start": 200018,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 200024,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 200000,
+                    "type": "function",
+                    "view": "function bit.bnot(x: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 200017,
+                "start": 200009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.bnot",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 270018,
+                            "name": "x",
+                            "start": 270017,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 270022,
+                            "name": "x2",
+                            "start": 270020,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 270027,
+                            "start": 270024,
+                            "type": "...",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 270032,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 270000,
+                    "type": "function",
+                    "view": "function bit.bor(x: integer, x2: integer, ...integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 270016,
+                "start": 270009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.bor",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 760020,
+                            "name": "x",
+                            "start": 760019,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 760025,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 760000,
+                    "type": "function",
+                    "view": "function bit.bswap(x: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 760018,
+                "start": 760009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.bswap",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 410019,
+                            "name": "x",
+                            "start": 410018,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 410023,
+                            "name": "x2",
+                            "start": 410021,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 410028,
+                            "start": 410025,
+                            "type": "...",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 410033,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 410000,
+                    "type": "function",
+                    "view": "function bit.bxor(x: integer, x2: integer, ...integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 410017,
+                "start": 410009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.bxor",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 470021,
+                            "name": "x",
+                            "start": 470020,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 470024,
+                            "name": "n",
+                            "start": 470023,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 470029,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 470000,
+                    "type": "function",
+                    "view": "function bit.lshift(x: integer, n: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 470019,
+                "start": 470009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.lshift",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 650018,
+                            "name": "x",
+                            "start": 650017,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 650021,
+                            "name": "n",
+                            "start": 650020,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 650026,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 650000,
+                    "type": "function",
+                    "view": "function bit.rol(x: integer, n: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 650016,
+                "start": 650009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.rol",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 710018,
+                            "name": "x",
+                            "start": 710017,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 710021,
+                            "name": "n",
+                            "start": 710020,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 710026,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 710000,
+                    "type": "function",
+                    "view": "function bit.ror(x: integer, n: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 710016,
+                "start": 710009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.ror",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 530021,
+                            "name": "x",
+                            "start": 530020,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 530024,
+                            "name": "n",
+                            "start": 530023,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 530029,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 530000,
+                    "type": "function",
+                    "view": "function bit.rshift(x: integer, n: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 530019,
+                "start": 530009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.rshift",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 90020,
+                            "name": "x",
+                            "start": 90019,
+                            "type": "local",
+                            "view": "integer"
+                        }
+                    ],
+                    "finish": 90025,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 90000,
+                    "type": "function",
+                    "view": "function bit.tobit(x: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 90018,
+                "start": 90009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.tobit",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 150020,
+                            "name": "x",
+                            "start": 150019,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 150023,
+                            "name": "n",
+                            "start": 150022,
+                            "type": "local",
+                            "view": "integer?"
+                        }
+                    ],
+                    "finish": 150028,
+                    "returns": [
+                        {
+                            "name": "y",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 150000,
+                    "type": "function",
+                    "view": "function bit.tohex(x: integer, n?: integer)\n  -> y: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/bit.lua",
+                "finish": 150018,
+                "start": 150009,
+                "type": "setfield"
+            }
+        ],
+        "name": "bit.tohex",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "finish": 80014,
+                    "start": 80012,
+                    "type": "table",
+                    "view": "coroutinelib"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 80009,
+                "start": 80000,
+                "type": "setglobal"
+            }
+        ],
+        "desc": "\n\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine\"])\n",
+        "name": "coroutine",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 390027,
+                            "name": "co",
+                            "start": 390025,
+                            "type": "local",
+                            "view": "thread"
+                        }
+                    ],
+                    "desc": "\n关闭协程 `co`，并关闭它所有等待 *to-be-closed* 的变量，并将协程状态设为 `dead` 。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.close\"])",
+                    "finish": 390032,
+                    "returns": [
+                        {
+                            "name": "noerror",
+                            "type": "function.return",
+                            "view": "boolean"
+                        },
+                        {
+                            "name": "errorobject",
+                            "type": "function.return",
+                            "view": "any"
+                        }
+                    ],
+                    "start": 390000,
+                    "type": "function",
+                    "view": "function coroutine.close(co: thread)\n  -> noerror: boolean\n  2. errorobject: any"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 390024,
+                "start": 390009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n关闭协程 `co`，并关闭它所有等待 *to-be-closed* 的变量，并将协程状态设为 `dead` 。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.close\"])",
+        "name": "coroutine.close",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 180027,
+                            "name": "f",
+                            "start": 180026,
+                            "type": "local",
+                            "view": "fun(...any):...unknown"
+                        }
+                    ],
+                    "desc": "\n创建一个主体函数为 `f` 的新协程。 f 必须是一个 Lua 的函数。 返回这个新协程，它是一个类型为 `\"thread\"` 的对象。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.create\"])",
+                    "finish": 180032,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "thread"
+                        }
+                    ],
+                    "start": 180000,
+                    "type": "function",
+                    "view": "function coroutine.create(f: fun(...any):...unknown)\n  -> thread"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 180025,
+                "start": 180009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n创建一个主体函数为 `f` 的新协程。 f 必须是一个 Lua 的函数。 返回这个新协程，它是一个类型为 `\"thread\"` 的对象。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.create\"])",
+        "name": "coroutine.create",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [],
+                    "desc": "\n如果正在运行的协程可以让出，则返回真。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.isyieldable\"])",
+                    "finish": 280036,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "boolean"
+                        }
+                    ],
+                    "start": 280000,
+                    "type": "function",
+                    "view": "function coroutine.isyieldable()\n  -> boolean"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 280030,
+                "start": 280009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n如果正在运行的协程可以让出，则返回真。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.isyieldable\"])",
+        "name": "coroutine.isyieldable",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 500028,
+                            "name": "co",
+                            "start": 500026,
+                            "type": "local",
+                            "view": "thread"
+                        },
+                        {
+                            "finish": 500034,
+                            "name": "val1",
+                            "start": 500030,
+                            "type": "local",
+                            "view": "any"
+                        },
+                        {
+                            "finish": 500039,
+                            "start": 500036,
+                            "type": "...",
+                            "view": "unknown"
+                        }
+                    ],
+                    "desc": "\n开始或继续协程 `co` 的运行。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.resume\"])",
+                    "finish": 500044,
+                    "returns": [
+                        {
+                            "name": "success",
+                            "type": "function.return",
+                            "view": "boolean"
+                        },
+                        {
+                            "name": "...",
+                            "type": "function.return",
+                            "view": "any"
+                        }
+                    ],
+                    "start": 500000,
+                    "type": "function",
+                    "view": "function coroutine.resume(co: thread, val1?: any, ...any)\n  -> success: boolean\n  2. ...any"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 500025,
+                "start": 500009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n开始或继续协程 `co` 的运行。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.resume\"])",
+        "name": "coroutine.resume",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [],
+                    "desc": "\n返回当前正在运行的协程加一个布尔量。 如果当前运行的协程是主线程，其为真。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.running\"])",
+                    "finish": 600032,
+                    "returns": [
+                        {
+                            "name": "running",
+                            "type": "function.return",
+                            "view": "thread"
+                        },
+                        {
+                            "name": "ismain",
+                            "type": "function.return",
+                            "view": "boolean"
+                        }
+                    ],
+                    "start": 600000,
+                    "type": "function",
+                    "view": "function coroutine.running()\n  -> running: thread\n  2. ismain: boolean"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 600026,
+                "start": 600009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回当前正在运行的协程加一个布尔量。 如果当前运行的协程是主线程，其为真。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.running\"])",
+        "name": "coroutine.running",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 740028,
+                            "name": "co",
+                            "start": 740026,
+                            "type": "local",
+                            "view": "thread"
+                        }
+                    ],
+                    "desc": "\n以字符串形式返回协程 `co` 的状态。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.status\"])\n\n\n```lua\nreturn #1:\n    | \"running\" -- 正在运行。\n    | \"suspended\" -- 挂起或是还没有开始运行。\n    | \"normal\" -- 是活动的，但并不在运行。\n    | \"dead\" -- 运行完主体函数或因错误停止。\n```",
+                    "finish": 740033,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "\"dead\"|\"normal\"|\"running\"|\"suspended\""
+                        }
+                    ],
+                    "start": 740000,
+                    "type": "function",
+                    "view": "function coroutine.status(co: thread)\n  -> \"dead\"|\"normal\"|\"running\"|\"suspended\""
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 740025,
+                "start": 740009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n以字符串形式返回协程 `co` 的状态。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.status\"])\n\n\n```lua\nreturn #1:\n    | \"running\" -- 正在运行。\n    | \"suspended\" -- 挂起或是还没有开始运行。\n    | \"normal\" -- 是活动的，但并不在运行。\n    | \"dead\" -- 运行完主体函数或因错误停止。\n```",
+        "name": "coroutine.status",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 840025,
+                            "name": "f",
+                            "start": 840024,
+                            "type": "local",
+                            "view": "fun(...any):...unknown"
+                        }
+                    ],
+                    "desc": "\n创建一个主体函数为 `f` 的新协程。 f 必须是一个 Lua 的函数。 返回一个函数， 每次调用该函数都会延续该协程。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.wrap\"])",
+                    "finish": 840030,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "fun(...any):...unknown"
+                        }
+                    ],
+                    "start": 840000,
+                    "type": "function",
+                    "view": "function coroutine.wrap(f: fun(...any):...unknown)\n  -> fun(...any):...unknown"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 840023,
+                "start": 840009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n创建一个主体函数为 `f` 的新协程。 f 必须是一个 Lua 的函数。 返回一个函数， 每次调用该函数都会延续该协程。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.wrap\"])",
+        "name": "coroutine.wrap",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 930028,
+                            "start": 930025,
+                            "type": "...",
+                            "view": "unknown"
+                        }
+                    ],
+                    "desc": "\n挂起正在调用的协程的执行。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.yield\"])",
+                    "finish": 930033,
+                    "returns": [
+                        {
+                            "name": "...",
+                            "type": "function.return",
+                            "view": "any"
+                        }
+                    ],
+                    "start": 930000,
+                    "type": "function",
+                    "view": "(async) function coroutine.yield(...any)\n  -> ...any"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/coroutine.lua",
+                "finish": 930024,
+                "start": 930009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n挂起正在调用的协程的执行。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-coroutine.yield\"])",
+        "name": "coroutine.yield",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "finish": 80011,
+                    "start": 80009,
+                    "type": "table",
+                    "view": "stringlib"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 80006,
+                "start": 80000,
+                "type": "setglobal"
+            }
+        ],
+        "desc": "\n\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string\"])\n",
+        "name": "string",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 200022,
+                            "name": "s",
+                            "start": 200021,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 200025,
+                            "name": "i",
+                            "start": 200024,
+                            "type": "local",
+                            "view": "integer?"
+                        },
+                        {
+                            "finish": 200028,
+                            "name": "j",
+                            "start": 200027,
+                            "type": "local",
+                            "view": "integer?"
+                        }
+                    ],
+                    "desc": "\n返回字符 `s[i]`， `s[i+1]`， ...　，`s[j]` 的内部数字编码。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.byte\"])",
+                    "finish": 200033,
+                    "returns": [
+                        {
+                            "name": "...",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 200000,
+                    "type": "function",
+                    "view": "function string.byte(s: string|number, i?: integer, j?: integer)\n  -> ...integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 200020,
+                "start": 200009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回字符 `s[i]`， `s[i+1]`， ...　，`s[j]` 的内部数字编码。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.byte\"])",
+        "name": "string.byte",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 310025,
+                            "name": "byte",
+                            "start": 310021,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 310030,
+                            "start": 310027,
+                            "type": "...",
+                            "view": "integer"
+                        }
+                    ],
+                    "desc": "\n接收零或更多的整数。 返回和参数数量相同长度的字符串。 其中每个字符的内部编码值等于对应的参数值。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.char\"])",
+                    "finish": 310035,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 310000,
+                    "type": "function",
+                    "view": "function string.char(byte: integer, ...integer)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 310020,
+                "start": 310009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n接收零或更多的整数。 返回和参数数量相同长度的字符串。 其中每个字符的内部编码值等于对应的参数值。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.char\"])",
+        "name": "string.char",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 420022,
+                            "name": "f",
+                            "start": 420021,
+                            "type": "local",
+                            "view": "fun(...any):...unknown"
+                        },
+                        {
+                            "finish": 420029,
+                            "name": "strip",
+                            "start": 420024,
+                            "type": "local",
+                            "view": "boolean?"
+                        }
+                    ],
+                    "desc": "\n返回包含有以二进制方式表示的（一个 *二进制代码块* ）指定函数的字符串。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.dump\"])",
+                    "finish": 420034,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 420000,
+                    "type": "function",
+                    "view": "function string.dump(f: fun(...any):...unknown, strip?: boolean)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 420020,
+                "start": 420009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回包含有以二进制方式表示的（一个 *二进制代码块* ）指定函数的字符串。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.dump\"])",
+        "name": "string.dump",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 570022,
+                            "name": "s",
+                            "start": 570021,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 570031,
+                            "name": "pattern",
+                            "start": 570024,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 570037,
+                            "name": "init",
+                            "start": 570033,
+                            "type": "local",
+                            "view": "integer?"
+                        },
+                        {
+                            "finish": 570044,
+                            "name": "plain",
+                            "start": 570039,
+                            "type": "local",
+                            "view": "boolean?"
+                        }
+                    ],
+                    "desc": "\n查找第一个字符串中匹配到的 `pattern`（参见 [§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])）。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.find\"])\n\n@*return* `start`\n\n@*return* `end`\n\n@*return* `...` — captured",
+                    "finish": 570049,
+                    "returns": [
+                        {
+                            "name": "start",
+                            "type": "function.return",
+                            "view": "integer|nil"
+                        },
+                        {
+                            "name": "end",
+                            "type": "function.return",
+                            "view": "integer|nil"
+                        },
+                        {
+                            "desc": "captured",
+                            "name": "...",
+                            "type": "function.return",
+                            "view": "any"
+                        }
+                    ],
+                    "start": 570000,
+                    "type": "function",
+                    "view": "function string.find(s: string|number, pattern: string|number, init?: integer, plain?: boolean)\n  -> start: integer|nil\n  2. end: integer|nil\n  3. ...any"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 570020,
+                "start": 570009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n查找第一个字符串中匹配到的 `pattern`（参见 [§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])）。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.find\"])\n\n@*return* `start`\n\n@*return* `end`\n\n@*return* `...` — captured",
+        "name": "string.find",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 680024,
+                            "name": "s",
+                            "start": 680023,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 680029,
+                            "start": 680026,
+                            "type": "...",
+                            "view": "any"
+                        }
+                    ],
+                    "desc": "\n返回不定数量参数的格式化版本，格式化串为第一个参数。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.format\"])",
+                    "finish": 680034,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 680000,
+                    "type": "function",
+                    "view": "function string.format(s: string|number, ...any)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 680022,
+                "start": 680009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回不定数量参数的格式化版本，格式化串为第一个参数。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.format\"])",
+        "name": "string.format",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 890024,
+                            "name": "s",
+                            "start": 890023,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 890033,
+                            "name": "pattern",
+                            "start": 890026,
+                            "type": "local",
+                            "view": "string|number"
+                        }
+                    ],
+                    "desc": "\n返回一个迭代器函数。 每次调用这个函数都会继续以 `pattern` （参见　[§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])） 对 s 做匹配，并返回所有捕获到的值。\n\n下面这个例子会循环迭代字符串 s 中所有的单词， 并逐行打印：\n```lua\n    s =\n\"hello world from Lua\"\n    for w in string.gmatch(s, \"%a+\") do\n        print(w)\n    end\n```\n\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.gmatch\"])",
+                    "finish": 890038,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "fun():string, ...unknown"
+                        }
+                    ],
+                    "start": 890000,
+                    "type": "function",
+                    "view": "function string.gmatch(s: string|number, pattern: string|number)\n  -> fun():string, ...unknown"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 890022,
+                "start": 890009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回一个迭代器函数。 每次调用这个函数都会继续以 `pattern` （参见　[§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])） 对 s 做匹配，并返回所有捕获到的值。\n\n下面这个例子会循环迭代字符串 s 中所有的单词， 并逐行打印：\n```lua\n    s =\n\"hello world from Lua\"\n    for w in string.gmatch(s, \"%a+\") do\n        print(w)\n    end\n```\n\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.gmatch\"])",
+        "name": "string.gmatch",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1030022,
+                            "name": "s",
+                            "start": 1030021,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 1030031,
+                            "name": "pattern",
+                            "start": 1030024,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 1030037,
+                            "name": "repl",
+                            "start": 1030033,
+                            "type": "local",
+                            "view": "string|number|function|table"
+                        },
+                        {
+                            "finish": 1030040,
+                            "name": "n",
+                            "start": 1030039,
+                            "type": "local",
+                            "view": "integer?"
+                        }
+                    ],
+                    "desc": "\n将字符串 s 中，所有的（或是在 n 给出时的前 n 个） pattern （参见 [§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])）都替换成 repl ，并返回其副本。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.gsub\"])",
+                    "finish": 1030045,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        },
+                        {
+                            "name": "count",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 1030000,
+                    "type": "function",
+                    "view": "function string.gsub(s: string|number, pattern: string|number, repl: string|number|function|table, n?: integer)\n  -> string\n  2. count: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1030020,
+                "start": 1030009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n将字符串 s 中，所有的（或是在 n 给出时的前 n 个） pattern （参见 [§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])）都替换成 repl ，并返回其副本。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.gsub\"])",
+        "name": "string.gsub",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1130021,
+                            "name": "s",
+                            "start": 1130020,
+                            "type": "local",
+                            "view": "string|number"
+                        }
+                    ],
+                    "desc": "\n返回其长度。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.len\"])",
+                    "finish": 1130026,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 1130000,
+                    "type": "function",
+                    "view": "function string.len(s: string|number)\n  -> integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1130019,
+                "start": 1130009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回其长度。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.len\"])",
+        "name": "string.len",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1230023,
+                            "name": "s",
+                            "start": 1230022,
+                            "type": "local",
+                            "view": "string|number"
+                        }
+                    ],
+                    "desc": "\n将其中的大写字符都转为小写后返回其副本。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.lower\"])",
+                    "finish": 1230028,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 1230000,
+                    "type": "function",
+                    "view": "function string.lower(s: string|number)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1230021,
+                "start": 1230009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n将其中的大写字符都转为小写后返回其副本。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.lower\"])",
+        "name": "string.lower",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1350023,
+                            "name": "s",
+                            "start": 1350022,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 1350032,
+                            "name": "pattern",
+                            "start": 1350025,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 1350038,
+                            "name": "init",
+                            "start": 1350034,
+                            "type": "local",
+                            "view": "integer?"
+                        }
+                    ],
+                    "desc": "\n在字符串 s 中找到第一个能用 pattern （参见 [§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])）匹配到的部分。 如果能找到，match 返回其中的捕获物； 否则返回 nil 。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.match\"])",
+                    "finish": 1350043,
+                    "returns": [
+                        {
+                            "name": "...",
+                            "type": "function.return",
+                            "view": "any"
+                        }
+                    ],
+                    "start": 1350000,
+                    "type": "function",
+                    "view": "function string.match(s: string|number, pattern: string|number, init?: integer)\n  -> ...any"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1350021,
+                "start": 1350009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n在字符串 s 中找到第一个能用 pattern （参见 [§6.4.1](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.1\"])）匹配到的部分。 如果能找到，match 返回其中的捕获物； 否则返回 nil 。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.match\"])",
+        "name": "string.match",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1480024,
+                            "name": "fmt",
+                            "start": 1480021,
+                            "type": "local",
+                            "view": "string"
+                        },
+                        {
+                            "finish": 1480028,
+                            "name": "v1",
+                            "start": 1480026,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 1480032,
+                            "name": "v2",
+                            "start": 1480030,
+                            "type": "local",
+                            "view": "any"
+                        },
+                        {
+                            "finish": 1480037,
+                            "start": 1480034,
+                            "type": "...",
+                            "view": "string|number"
+                        }
+                    ],
+                    "desc": "\n返回一个打包了（即以二进制形式序列化） v1, v2 等值的二进制字符串。 字符串 fmt 为打包格式（参见 [§6.4.2](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.2\"])）。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.pack\"])",
+                    "finish": 1480042,
+                    "returns": [
+                        {
+                            "name": "binary",
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 1480000,
+                    "type": "function",
+                    "view": "function string.pack(fmt: string, v1: string|number, v2: any, ...string|number)\n  -> binary: string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1480020,
+                "start": 1480009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回一个打包了（即以二进制形式序列化） v1, v2 等值的二进制字符串。 字符串 fmt 为打包格式（参见 [§6.4.2](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.2\"])）。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.pack\"])",
+        "name": "string.pack",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1590028,
+                            "name": "fmt",
+                            "start": 1590025,
+                            "type": "local",
+                            "view": "string"
+                        }
+                    ],
+                    "desc": "\n返回以指定格式用 [string.pack](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.pack\"]) 打包的字符串的长度。 格式化字符串中不可以有变长选项 's' 或 'z' （参见 [§6.4.2](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.2\"])）。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.packsize\"])",
+                    "finish": 1590033,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 1590000,
+                    "type": "function",
+                    "view": "function string.packsize(fmt: string)\n  -> integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1590024,
+                "start": 1590009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回以指定格式用 [string.pack](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.pack\"]) 打包的字符串的长度。 格式化字符串中不可以有变长选项 's' 或 'z' （参见 [§6.4.2](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.2\"])）。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.packsize\"])",
+        "name": "string.packsize",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1710021,
+                            "name": "s",
+                            "start": 1710020,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 1710024,
+                            "name": "n",
+                            "start": 1710023,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 1710029,
+                            "name": "sep",
+                            "start": 1710026,
+                            "type": "local",
+                            "view": "(string|number)?"
+                        }
+                    ],
+                    "desc": "\n返回 `n` 个字符串 `s` 以字符串 `sep` 为分割符连在一起的字符串。 默认的 `sep` 值为空字符串（即没有分割符）。 如果 `n` 不是正数则返回空串。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.rep\"])",
+                    "finish": 1710034,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 1710000,
+                    "type": "function",
+                    "view": "function string.rep(s: string|number, n: integer, sep?: string|number)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1710019,
+                "start": 1710009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回 `n` 个字符串 `s` 以字符串 `sep` 为分割符连在一起的字符串。 默认的 `sep` 值为空字符串（即没有分割符）。 如果 `n` 不是正数则返回空串。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.rep\"])",
+        "name": "string.rep",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1810025,
+                            "name": "s",
+                            "start": 1810024,
+                            "type": "local",
+                            "view": "string|number"
+                        }
+                    ],
+                    "desc": "\n返回字符串 s 的翻转串。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.reverse\"])",
+                    "finish": 1810030,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 1810000,
+                    "type": "function",
+                    "view": "function string.reverse(s: string|number)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1810023,
+                "start": 1810009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回字符串 s 的翻转串。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.reverse\"])",
+        "name": "string.reverse",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 1930021,
+                            "name": "s",
+                            "start": 1930020,
+                            "type": "local",
+                            "view": "string|number"
+                        },
+                        {
+                            "finish": 1930024,
+                            "name": "i",
+                            "start": 1930023,
+                            "type": "local",
+                            "view": "integer"
+                        },
+                        {
+                            "finish": 1930027,
+                            "name": "j",
+                            "start": 1930026,
+                            "type": "local",
+                            "view": "integer?"
+                        }
+                    ],
+                    "desc": "\n返回字符串的子串， 该子串从 `i` 开始到 `j` 为止。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.sub\"])",
+                    "finish": 1930032,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 1930000,
+                    "type": "function",
+                    "view": "function string.sub(s: string|number, i: integer, j?: integer)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 1930019,
+                "start": 1930009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回字符串的子串， 该子串从 `i` 开始到 `j` 为止。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.sub\"])",
+        "name": "string.sub",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 2070026,
+                            "name": "fmt",
+                            "start": 2070023,
+                            "type": "local",
+                            "view": "string"
+                        },
+                        {
+                            "finish": 2070029,
+                            "name": "s",
+                            "start": 2070028,
+                            "type": "local",
+                            "view": "string"
+                        },
+                        {
+                            "finish": 2070034,
+                            "name": "pos",
+                            "start": 2070031,
+                            "type": "local",
+                            "view": "integer?"
+                        }
+                    ],
+                    "desc": "\n返回以格式 fmt （参见 [§6.4.2](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.2\"])） 打包在字符串 s （参见 string.pack） 中的值。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.unpack\"])",
+                    "finish": 2070039,
+                    "returns": [
+                        {
+                            "name": "...",
+                            "type": "function.return",
+                            "view": "any"
+                        },
+                        {
+                            "name": "offset",
+                            "type": "function.return",
+                            "view": "integer"
+                        }
+                    ],
+                    "start": 2070000,
+                    "type": "function",
+                    "view": "function string.unpack(fmt: string, s: string, pos?: integer)\n  -> ...any\n  2. offset: integer"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 2070022,
+                "start": 2070009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n返回以格式 fmt （参见 [§6.4.2](command:extension.lua.doc?[\"en-us/51/manual.html/6.4.2\"])） 打包在字符串 s （参见 string.pack） 中的值。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.unpack\"])",
+        "name": "string.unpack",
+        "type": "variable"
+    },
+    {
+        "defines": [
+            {
+                "extends": {
+                    "args": [
+                        {
+                            "finish": 2170023,
+                            "name": "s",
+                            "start": 2170022,
+                            "type": "local",
+                            "view": "string|number"
+                        }
+                    ],
+                    "desc": "\n接收一个字符串，将其中的小写字符都转为大写后返回其副本。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.upper\"])",
+                    "finish": 2170028,
+                    "returns": [
+                        {
+                            "type": "function.return",
+                            "view": "string"
+                        }
+                    ],
+                    "start": 2170000,
+                    "type": "function",
+                    "view": "function string.upper(s: string|number)\n  -> string"
+                },
+                "file": "file:///c%3A/Users/ASUS/.vscode/extensions/sumneko.lua-3.6.26-win32-x64/server/meta/LuaJIT%20zh-cn%20utf8/string.lua",
+                "finish": 2170021,
+                "start": 2170009,
+                "type": "setfield"
+            }
+        ],
+        "desc": "\n接收一个字符串，将其中的小写字符都转为大写后返回其副本。\n\n[查看文档](command:extension.lua.doc?[\"en-us/51/manual.html/pdf-string.upper\"])",
+        "name": "string.upper",
+        "type": "variable"
+    }
+]

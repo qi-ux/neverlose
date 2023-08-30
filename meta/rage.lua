@@ -76,8 +76,14 @@ function exploit:allow_charge(value) end
 ---@nodiscard
 function exploit:allow_defensive(value) end
 
+---
+---
+---
 function exploit:force_teleport() end
 
+---
+---
+---
 function exploit:force_charge() end
 
 ---@class rage

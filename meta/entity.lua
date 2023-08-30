@@ -383,7 +383,7 @@ function entity_mt:get_inaccuracy() end
 entity = {}
 
 ---@param idx number
----@param is_uid boolean
+---@param is_uid? boolean
 ---@return entity?
 ---@nodiscard
 function entity.get(idx, is_uid) end

@@ -31,24 +31,32 @@ function ui_item:reset() end
 
 function ui_item:set(value, ...) end
 
----@overload fun(value: string)
 ---@return string
 ---@nodiscard
+function ui_item:name() end
+
+---@param value string
 function ui_item:name(value) end
 
----@overload fun(value: string)
 ---@return string
 ---@nodiscard
+function ui_item:tooltip() end
+
+---@param value string
 function ui_item:tooltip(value) end
 
----@overload fun(value: boolean)
 ---@return boolean
 ---@nodiscard
+function ui_item:visibility() end
+
+---@param value boolean
 function ui_item:visibility(value) end
 
----@overload fun(value: boolean)
 ---@return boolean
 ---@nodiscard
+function ui_item:disabled() end
+
+---@param value boolean
 function ui_item:disabled(value) end
 
 ---@param callback fun(item: ui_item)
@@ -57,6 +65,10 @@ function ui_item:set_callback(callback, force_call) end
 
 ---@param callback fun(item: ui_item)
 function ui_item:unset_callback(callback) end
+
+---@param clr? color|color[]
+---@return ui_item
+function ui_item:color_picker(clr) end
 
 ---@param name string
 ---@param clr? color|color[]
@@ -115,7 +127,11 @@ function ui_group:button(name, callback, style) end
 function ui_group:hotkey(name, value) end
 
 ---@param name string
----@param value string|string[]
+---@param value? string
+---@return ui_item
+function ui_group:input(name, value) end
+
+---@param name string
 ---@param ... string|string[]
 ---@return ui_item
 function ui_group:list(name, value, ...) end
@@ -167,6 +183,38 @@ function ui.get_alpha() end
 ---@field active boolean
 ---@field reference ui_group
 local hotkey
+
+---@param group string
+---@param item string
+---@return ui_item
+---@nodiscard
+function ui.find(group, item) end
+
+---@param category string
+---@param tab string
+---@param group string
+---@return ui_group
+---@nodiscard
+function ui.find(category, tab, group) end
+
+---@param category string
+---@param tab string
+---@param group string
+---@param item string
+---@param sub_item? string
+---@return ui_item
+---@nodiscard
+function ui.find(category, tab, group, item, sub_item) end
+
+---@param category string
+---@param tab string
+---@param sub_tab string
+---@param group string
+---@param item string
+---@param sub_item string
+---@return ui_item
+---@nodiscard
+function ui.find(category, tab, sub_tab, group, item, sub_item) end
 
 ---@return hotkey[]
 ---@nodiscard
